@@ -1,0 +1,534 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'de' Physical Memory: 16228 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tony/Space Invader Clone
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62669
+Successfully changed project path to: C:/Users/Tony/Space Invader Clone
+C:/Users/Tony/Space Invader Clone
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tony/Space Invader Clone/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001829 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.427 seconds
+Domain Reload Profiling:
+	ReloadAssembly (427ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (326ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (129ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 2.089400 ms (FindLiveObjects: 0.107100 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.829500 ms  DeleteObjects: 0.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcbe13f7b2b50ca47105079f893db81') in 0.007226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1216.429200 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6147.264456 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(f98b8458f04f9e64ab9d0ca2a124c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(f98b8458f04f9e64ab9d0ca2a124c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c9284267a842c48d0799264a684f0e') in 0.004403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.562478 seconds.
+  path: Assets/Sprites/BulletMonster1.png
+  artifactKey: Guid(b55d2c2fd525534418a6471eb8af8665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BulletMonster1.png using Guid(b55d2c2fd525534418a6471eb8af8665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6206770262624b8f73dc448e571e91c') in 0.090012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Sprites/BulletMonster2.png
+  artifactKey: Guid(adf2e2ec4d081db4995518c274eafa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BulletMonster2.png using Guid(adf2e2ec4d081db4995518c274eafa21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acb186436e0f24abc3c66d101658fe4') in 0.011918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprites/PlayerMovementSpritesheet.png
+  artifactKey: Guid(cbb76582dfe9565429600b2512c0d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerMovementSpritesheet.png using Guid(cbb76582dfe9565429600b2512c0d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8cfcb67c9042007605439839bc0def') in 0.058491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/Monster1.png
+  artifactKey: Guid(73dc172c28cacb943bebbff1550e59a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monster1.png using Guid(73dc172c28cacb943bebbff1550e59a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d6e4e5e23d54ed39b5218e7dd59c0a') in 0.010192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Sprites/Monster2.png
+  artifactKey: Guid(1e59d442e5ada6c4fa968ce688aa2f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Monster2.png using Guid(1e59d442e5ada6c4fa968ce688aa2f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd357baaabcd86bb7e98b0ebdeb8413') in 0.010406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/BulletPlayerSpritesheet.png
+  artifactKey: Guid(fa981e8d659fcf246862c3c434c6dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BulletPlayerSpritesheet.png using Guid(fa981e8d659fcf246862c3c434c6dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91400dddf4aef8d724cf28930f476658') in 0.017879 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (575ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 2.508000 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.043000 ms MarkObjects: 2.238400 ms  DeleteObjects: 0.123300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 739.220127 seconds.
+  path: Assets/Sprites/BulletPlayerAnimation.anim
+  artifactKey: Guid(a27ad7c6d2452ae42bf3d2cc4f67bc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BulletPlayerAnimation.anim using Guid(a27ad7c6d2452ae42bf3d2cc4f67bc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfd8faf8a7901c0e12c8182fee7df90') in 0.013379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 298.485154 seconds.
+  path: Assets/Sprites/fixedMOVEMENTS-01_2.controller
+  artifactKey: Guid(a6709c8c5823cc449ae54254433470fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fixedMOVEMENTS-01_2.controller using Guid(a6709c8c5823cc449ae54254433470fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fed4ecfd41f0a17fd5cd11e3a0f86e8') in 0.007472 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.0 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 2.303600 ms (FindLiveObjects: 0.112600 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.030900 ms  DeleteObjects: 0.114000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.033976 seconds.
+  path: Assets/Sprites/PlayerFlyRightController.controller
+  artifactKey: Guid(a6709c8c5823cc449ae54254433470fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyRightController.controller using Guid(a6709c8c5823cc449ae54254433470fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb411ec7974563d2e4e6f6629be92119') in 0.012424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 273.484311 seconds.
+  path: Assets/Sprites/New Animation.anim
+  artifactKey: Guid(9bde4455510bbd44abd601c7d1dca81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Animation.anim using Guid(9bde4455510bbd44abd601c7d1dca81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5d74c3f081e80d627a5e4ac55b3735') in 0.005969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.575389 seconds.
+  path: Assets/Sprites/fixedMOVEMENTS-01_0.controller
+  artifactKey: Guid(e882e5250d3d0374c849d4d04f308264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fixedMOVEMENTS-01_0.controller using Guid(e882e5250d3d0374c849d4d04f308264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3699b984d94d216d1003f190c17f10f') in 0.005001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.381594 seconds.
+  path: Assets/Sprites/PlayerFlyUpController.controller
+  artifactKey: Guid(e882e5250d3d0374c849d4d04f308264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyUpController.controller using Guid(e882e5250d3d0374c849d4d04f308264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fe94b8952d4a38e644f193d0432d9b') in 0.004943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.431774 seconds.
+  path: Assets/Sprites/fixedMOVEMENTS-01_4.controller
+  artifactKey: Guid(de9d28689435e80428678e62e3194ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fixedMOVEMENTS-01_4.controller using Guid(de9d28689435e80428678e62e3194ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c078896ca4e5fd7b3ebdbd93b2b39a39') in 0.004525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.721104 seconds.
+  path: Assets/Sprites/PlayerFlyLeftController.controller
+  artifactKey: Guid(de9d28689435e80428678e62e3194ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyLeftController.controller using Guid(de9d28689435e80428678e62e3194ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01279c1fe110e4c7675043df8f538655') in 0.005008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.010637 seconds.
+  path: Assets/Sprites/PlayerFlyLeftAnimation.anim
+  artifactKey: Guid(8c1236d92573fa045970c72d16aaf0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyLeftAnimation.anim using Guid(8c1236d92573fa045970c72d16aaf0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402feec0bdae959a5d5494e634ea56e3') in 0.005306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.830637 seconds.
+  path: Assets/Sprites/PlayerFlyRightAnimation.anim
+  artifactKey: Guid(135d5d9346af8e342ae672e909272c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyRightAnimation.anim using Guid(135d5d9346af8e342ae672e909272c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cffe2cefa99ae1fd70d9460fe749df') in 0.005114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.933512 seconds.
+  path: Assets/Sprites/PlayerFlyUpAnimation.anim
+  artifactKey: Guid(1eb9c573cf519ef43b811af001055993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyUpAnimation.anim using Guid(1eb9c573cf519ef43b811af001055993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1f3455a6be5f8c986710a949ff24db') in 0.004833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.995856 seconds.
+  path: Assets/Sprites/PlayerFlyDownAnimation.anim
+  artifactKey: Guid(1eb9c573cf519ef43b811af001055993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyDownAnimation.anim using Guid(1eb9c573cf519ef43b811af001055993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e070bb145fd9b0968b82950bfd526d') in 0.004975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.630796 seconds.
+  path: Assets/Sprites/PlayerFlyDownController.controller
+  artifactKey: Guid(e882e5250d3d0374c849d4d04f308264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyDownController.controller using Guid(e882e5250d3d0374c849d4d04f308264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898edc9e5487b7f71c913df477ce24b1') in 0.005128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.952290 seconds.
+  path: Assets/Sprites/fixedMOVEMENTS-01_6.controller
+  artifactKey: Guid(2910d00d57d85074cb04004c42e2135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/fixedMOVEMENTS-01_6.controller using Guid(2910d00d57d85074cb04004c42e2135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5328e343622790d3d7e7f8a555c021a2') in 0.005025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.611214 seconds.
+  path: Assets/Sprites/PlayerFlyUpController.controller
+  artifactKey: Guid(2910d00d57d85074cb04004c42e2135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PlayerFlyUpController.controller using Guid(2910d00d57d85074cb04004c42e2135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5898347ed57f0cf74a9360b9244e571c') in 0.002116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 842.254844 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(29b6519b7880cc8478e51f7c21e4c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(29b6519b7880cc8478e51f7c21e4c280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22c82171fad7f6e514c6d5aaf94c945') in 0.004367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.072394 seconds.
+  path: Assets/Prefabs/BulletMonster2 (1).prefab
+  artifactKey: Guid(bf5bd42ade704b1489cbd25df0681906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletMonster2 (1).prefab using Guid(bf5bd42ade704b1489cbd25df0681906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3d2432f75689f80f7af28a5cf42ded') in 0.040855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.895855 seconds.
+  path: Assets/Prefabs/Monster1.prefab
+  artifactKey: Guid(9252a2ef9d2be9a4ebd0d70e85baab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monster1.prefab using Guid(9252a2ef9d2be9a4ebd0d70e85baab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b962c7c6b0e61a0076fcb34e9423fbf8') in 0.008308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.334949 seconds.
+  path: Assets/Prefabs/Monster2.prefab
+  artifactKey: Guid(5e4a6e9fd7545c74e91ef3840c730a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Monster2.prefab using Guid(5e4a6e9fd7545c74e91ef3840c730a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6950b6e65d7f55500e3655a78373fd1') in 0.008229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.621945 seconds.
+  path: Assets/Prefabs/BulletMonster1.prefab
+  artifactKey: Guid(77271b27d41db8f4a8ffa68c2de33b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletMonster1.prefab using Guid(77271b27d41db8f4a8ffa68c2de33b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a62f7a71c8480a3a7e40d1df4f6d417') in 0.007696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.551353 seconds.
+  path: Assets/Prefabs/BulletPlayerSpritesheet_0.prefab
+  artifactKey: Guid(fcbfbc1516938ed4e88ceba02ade85f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletPlayerSpritesheet_0.prefab using Guid(fcbfbc1516938ed4e88ceba02ade85f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BulletPlayerSpritesheet_0 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (BulletPlayerSpritesheet_0 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '1580355e1a0953f0d842e957b424e4fd') in 0.014887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.981231 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(337ec3fa4b6962e43bdbd563356954af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(337ec3fa4b6962e43bdbd563356954af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b129fa7eed7b6c0e3f2cbc1a2fa8b30') in 0.012749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.483392 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(55224da6b3d86fc41a2aa448e1023df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(55224da6b3d86fc41a2aa448e1023df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42b79da9190f82d83cb9b36d7f91cf6') in 0.004355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 373.287452 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c4f2b51296e866e4e90770fc06142039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c4f2b51296e866e4e90770fc06142039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17519db65ac2722f80c17083b5802edb') in 0.004353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.907324 seconds.
+  path: Assets/Scripts/PlayerMovementController.cs
+  artifactKey: Guid(ae6ec216a7fcaae4e8e6557b2f2316b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovementController.cs using Guid(ae6ec216a7fcaae4e8e6557b2f2316b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305216dda84a9cbcfffc8f430120abac') in 0.006059 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Domain Reload Profiling:
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2661.
+Total: 2.073300 ms (FindLiveObjects: 0.107300 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.818900 ms  DeleteObjects: 0.097400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
